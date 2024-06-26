@@ -1,3 +1,5 @@
+
+
 ---
 
 # PUV: Personalized User Vectors Using Vector Database Recommender System
@@ -24,7 +26,6 @@ In this project, we propose **PUV: Personalized User Vectors**, a technique that
 
 Recommender systems play an important role in today’s society due to the rapid development of online platforms. Providing information quickly to users, a good recommendation system not only helps improve user experience but also optimizes profits for the manufacturer. This project aims to enhance the personalization of recommendation systems using user vectors derived from their reviews and ratings of hotels.
 
-
 ## Proposed Architecture
 
 The architecture of the PUV recommender system is designed to enhance the recommendation process through several steps:
@@ -34,7 +35,7 @@ The architecture of the PUV recommender system is designed to enhance the recomm
 3. **Retrieving Similar Users**: Using advanced search algorithms, the system queries the Pinecone vector database to retrieve the top-k most similar users for a given user vector.
 4. **Generating Recommendations**: From the pool of similar users, the system selects the top-m items with the highest ratings to recommend to the user.
 
-![Architecture Diagram](./image/PUV.png)
+![Architecture Diagram](https://github.com/Sonny-Inkai/PERSONALIZED_USER_VECTOR_RECOMMENDER_SYSTEM/blob/main/image/PUV.png)
 
 ## Dataset
 
@@ -75,6 +76,8 @@ The PUV model, when integrated with the CafeBERT pre-trained word embedding, ach
 | PUV ViSoBERT  | 1.609 |
 | PUV PhoBERTv2 | 1.597 |
 | PUV CafeBERT  | 1.581 |
+
+
 
 ## Usage
 
