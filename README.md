@@ -35,7 +35,7 @@ The architecture of the PUV recommender system is designed to enhance the recomm
 3. **Retrieving Similar Users**: Using advanced search algorithms, the system queries the Pinecone vector database to retrieve the top-k most similar users for a given user vector.
 4. **Generating Recommendations**: From the pool of similar users, the system selects the top-m items with the highest ratings to recommend to the user.
 
-![Architecture Diagram](https://github.com/Sonny-Inkai/PERSONALIZED_USER_VECTOR_RECOMMENDER_SYSTEM/blob/main/image/PUV.png)
+![Architecture Diagram](image/PUV.png)
 
 ## Dataset
 
